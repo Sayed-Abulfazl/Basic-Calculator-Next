@@ -190,7 +190,7 @@ export default function Modal({ hidingModal }) {
                                                 </div>
                                                 <div className='flex gap-2 justify-center items-center'>
                                                     <FaGithub />
-                                                    <a target='_blank' rel='noopener noreferrer' href="https://github.com/Sayed-Abulfazl/Basic-Calculator.git">Link to GitHub</a>
+                                                    <a target='_blank' rel='noopener noreferrer' href="https://github.com/Sayed-Abulfazl/Basic-Calculator-Next.git">Link to GitHub</a>
                                                 </div>
                                             </div>
                                         }
@@ -272,7 +272,7 @@ export default function Modal({ hidingModal }) {
                                                 </div>
                                                 <div className='flex gap-2 justify-center items-center'>
                                                     <FaGithub />
-                                                    <a target='_blank' rel='noopener noreferrer' href="https://github.com/Sayed-Abulfazl/Basic-Calculator.git">پیوند به گیت هاب</a>
+                                                    <a target='_blank' rel='noopener noreferrer' href="https://github.com/Sayed-Abulfazl/Basic-Calculator-Next.git">پیوند به گیت هاب</a>
                                                 </div>
                                             </div>
                                         }
