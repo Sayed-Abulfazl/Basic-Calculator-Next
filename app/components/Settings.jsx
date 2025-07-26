@@ -44,7 +44,7 @@ export default function Settings({ hidingSettings }) {
         <div>
         </div>
 
-        <div className={`flex gap-4 ${language === "Persian" ? "reverse" : ""} my-4`}>
+        <div className={`flex gap-4 ${language === "Persian" ? "reverse" : ""} my-4 text-sm sm:text-lg `}>
           <div className={`font-bold`} style={{color:color}}>
             {language === "English" &&
               <span>Select Language: </span>

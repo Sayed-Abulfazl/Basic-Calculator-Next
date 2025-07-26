@@ -78,7 +78,7 @@ export default function Modal({ hidingModal }) {
     }
 
     return (
-        <div className="fixed w-[100%] flex-col inset-0 h-[100%] flex justify-center items-center bg-[rgba(0,0,0,0.7)]"
+        <div className="fixed w-[100%] flex-col inset-0 flex justify-center items-center bg-[rgba(0,0,0,0.7)]"
             onClick={closeModal}
         >
             {
@@ -165,13 +165,13 @@ export default function Modal({ hidingModal }) {
 
                                         <div className="flex gap-3 mt-3 pr-3 items-center ">
                                             <button
-                                                className="bg-red-600 text-white px-3 py-1 font-bold rounded-xl cursor-pointer active:bg-red-800"
+                                                className="bg-red-600 text-white px-2 sm:px-3 py-1 sm:font-bold rounded-xl cursor-pointer active:bg-red-800"
                                                 onClick={(e) => clearFeedback(e)}
                                             >
                                                 Clear
                                             </button>
                                             <button
-                                                className=" bg-green-500   text-white  px-3 py-1  font-bold rounded-xl cursor-pointer active:bg-green-800">
+                                                className=" bg-green-500   text-white px-2  sm:px-3 py-1  sm:font-bold rounded-xl cursor-pointer active:bg-green-800">
                                                 Send
                                             </button>
                                         </div>
